@@ -68,11 +68,12 @@ document.addEventListener('DOMContentLoaded', () => {
     darkTheme.addEventListener('click', function () {
               if(document.body.classList.contains('dark-theme')) {
                 document.body.classList.remove('dark-theme')
-                darkTheme.innerHTML = '<i class="bx bxs-sun"></i>'
+                darkTheme.innerHTML = '<i class="bx bxs-moon"></i>'
                   
               } else {
                 document.body.classList.add('dark-theme')
-                darkTheme.innerHTML = '<i class="bx bxs-moon"></i>'
+                darkTheme.innerHTML = '<i class="bx bxs-sun"></i>'
+                
               }
           })
 })
